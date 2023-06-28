@@ -2,3 +2,5 @@
 build/
 bin/
 .vscode/
+data/*2.txt
+data/*_res.txt
