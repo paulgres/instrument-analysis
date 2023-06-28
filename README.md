@@ -55,7 +55,7 @@ Accepted input file types: .txt (fixed width) and .csv.
 
 For .txt files: Ensure that the headers do not contain spaces, as this can affect the estimation of the number of columns. The file should have a fixed width format with a date column of width 10, followed by 20 columns for each constituent's price.
 
-Example command for running the program: `../bin/idxstats index1.txt index2.csv`
+Example command for running the program: `../bin/idxstats index1 index2`
 
 The program computes the number of constituents that have exited above their respective moving average on each given date.
 
